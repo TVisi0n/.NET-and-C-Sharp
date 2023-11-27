@@ -1,0 +1,6 @@
+C:\Users\Tanner\OneDrive\Documents\GitHub\.NET-and-C-Sharp\ShippingQuoteApp\ShippingQuoteApp\bin\Debug\ShippingQuoteApp.exe.config
+C:\Users\Tanner\OneDrive\Documents\GitHub\.NET-and-C-Sharp\ShippingQuoteApp\ShippingQuoteApp\bin\Debug\ShippingQuoteApp.exe
+C:\Users\Tanner\OneDrive\Documents\GitHub\.NET-and-C-Sharp\ShippingQuoteApp\ShippingQuoteApp\bin\Debug\ShippingQuoteApp.pdb
+C:\Users\Tanner\OneDrive\Documents\GitHub\.NET-and-C-Sharp\ShippingQuoteApp\ShippingQuoteApp\obj\Debug\ShippingQuoteApp.csproj.CoreCompileInputs.cache
+C:\Users\Tanner\OneDrive\Documents\GitHub\.NET-and-C-Sharp\ShippingQuoteApp\ShippingQuoteApp\obj\Debug\ShippingQuoteApp.exe
+C:\Users\Tanner\OneDrive\Documents\GitHub\.NET-and-C-Sharp\ShippingQuoteApp\ShippingQuoteApp\obj\Debug\ShippingQuoteApp.pdb
