@@ -77,18 +77,15 @@ namespace _6PartAssignment
 
             List<string> games = new List<string>() { "Call of Duty", "Apex Legends", "Fortnite", "GTA 5", "Fortnite" };
 
-            Console.WriteLine("Please enter a game name from the list.\nCall of Duty, Apex Legends, Fornite, GTA 5");
+            Console.WriteLine("Please enter a game name from the list.\nCall of Duty, Apex Legends, Fortnite, GTA 5");
             string gameChoice = Console.ReadLine();
+            int index = games.IndexOf(gameChoice);
 
             foreach (string game in games)
             {
                 if (gameChoice == game)
                 {
-                    Console.WriteLine("That game can be find in index/indicies ");
-                }
-                else if (gameChoice != game)
-                {
-                    Console.WriteLine("This game is not found in our list.");
+                    Console.WriteLine("Game " + index + ": " + gameChoice);
                 }
             }
 
@@ -96,13 +93,22 @@ namespace _6PartAssignment
 
             // Part 6
 
-            List<string> firstNames = new List<string>() { "Tanner", "Neli", "Yoshi", "Milo", "Bella" };
+            List<string> firstNames = new List<string>() { "Tanner", "Neli", "Yoshi", "Milo", "Tanner" };
+            List<string> duplicates = new List<string>();
 
             foreach (string firstName in firstNames)
             {
-
+                if (firstNames.Any(duplicates.Contains))
+                {
+                    Console.WriteLine(firstName + " - this item in unique");
+                }
+                else
+                {
+                    Console.WriteLine(firstName + " - this item is a duplicate");
+                }
+                duplicates.Add(firstName);
             }
-
+            Console.ReadLine();
         }
     }
 }
