@@ -18,9 +18,10 @@ namespace MainMethod
             return x + 5.3;
         }
 
-        public static string Method(string x)
+        public static int Method(string number)
         {
-            return "Hello, " + x;
+            int newnum = Convert.ToInt32(number);
+            return newnum * 4;
         }
 
     }

@@ -16,7 +16,7 @@ namespace MainMethod
             double operation1 = MathOperation.Method(3.4);
             Console.WriteLine(operation1);
 
-            string operation2 = MathOperation.Method("Tanner");
+            int operation2 = MathOperation.Method("7");
             Console.WriteLine(operation2);
 
             Console.ReadLine();
