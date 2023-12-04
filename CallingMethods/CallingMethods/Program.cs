@@ -22,9 +22,7 @@ namespace CallingMethods
             Console.WriteLine(userChoice + " times 2 equals: " + output2);
             Console.WriteLine(userChoice + " minus 3 equals: " + output3);
 
-            Console.ReadLine();
-
-            
+            Console.ReadLine(); 
         }
     }
 }
