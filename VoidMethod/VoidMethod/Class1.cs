@@ -4,13 +4,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace OptionalParameters
+namespace VoidMethod
 {
     class Class1
     {
-        public int Method(int x, int y = 1)
+        public void Method(int x, int y)
         {
-            return x * 3 + y;
+            Console.WriteLine(x + 20);
+            Console.WriteLine(y);
         }
+
     }
 }
