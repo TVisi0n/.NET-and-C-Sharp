@@ -1,0 +1,7 @@
+C:\Users\Tanner\OneDrive\Documents\GitHub\.NET-and-C-Sharp\OptionalParameters\OptionalParameters\bin\Debug\OptionalParameters.exe.config
+C:\Users\Tanner\OneDrive\Documents\GitHub\.NET-and-C-Sharp\OptionalParameters\OptionalParameters\bin\Debug\OptionalParameters.exe
+C:\Users\Tanner\OneDrive\Documents\GitHub\.NET-and-C-Sharp\OptionalParameters\OptionalParameters\bin\Debug\OptionalParameters.pdb
+C:\Users\Tanner\OneDrive\Documents\GitHub\.NET-and-C-Sharp\OptionalParameters\OptionalParameters\obj\Debug\OptionalParameters.csproj.AssemblyReference.cache
+C:\Users\Tanner\OneDrive\Documents\GitHub\.NET-and-C-Sharp\OptionalParameters\OptionalParameters\obj\Debug\OptionalParameters.csproj.CoreCompileInputs.cache
+C:\Users\Tanner\OneDrive\Documents\GitHub\.NET-and-C-Sharp\OptionalParameters\OptionalParameters\obj\Debug\OptionalParameters.exe
+C:\Users\Tanner\OneDrive\Documents\GitHub\.NET-and-C-Sharp\OptionalParameters\OptionalParameters\obj\Debug\OptionalParameters.pdb
