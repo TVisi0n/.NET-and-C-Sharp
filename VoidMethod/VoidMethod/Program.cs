@@ -12,9 +12,9 @@ namespace VoidMethod
         {
             Class1 class1 = new Class1();
 
-            int output = class1.Method(8, 9);
-            Console.WriteLine(output);
-            Console.ReadLine();
+            class1.Method(6, 8);
+
+            class1.Method(x: 6, y: 8);
         }
     }
 }
