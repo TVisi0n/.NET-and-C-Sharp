@@ -1,0 +1,7 @@
+C:\Users\Tanner\OneDrive\Documents\GitHub\.NET-and-C-Sharp\ClassSubmission\ClassSubmission\bin\Debug\ClassSubmission.exe.config
+C:\Users\Tanner\OneDrive\Documents\GitHub\.NET-and-C-Sharp\ClassSubmission\ClassSubmission\bin\Debug\ClassSubmission.exe
+C:\Users\Tanner\OneDrive\Documents\GitHub\.NET-and-C-Sharp\ClassSubmission\ClassSubmission\bin\Debug\ClassSubmission.pdb
+C:\Users\Tanner\OneDrive\Documents\GitHub\.NET-and-C-Sharp\ClassSubmission\ClassSubmission\obj\Debug\ClassSubmission.csproj.AssemblyReference.cache
+C:\Users\Tanner\OneDrive\Documents\GitHub\.NET-and-C-Sharp\ClassSubmission\ClassSubmission\obj\Debug\ClassSubmission.csproj.CoreCompileInputs.cache
+C:\Users\Tanner\OneDrive\Documents\GitHub\.NET-and-C-Sharp\ClassSubmission\ClassSubmission\obj\Debug\ClassSubmission.exe
+C:\Users\Tanner\OneDrive\Documents\GitHub\.NET-and-C-Sharp\ClassSubmission\ClassSubmission\obj\Debug\ClassSubmission.pdb
