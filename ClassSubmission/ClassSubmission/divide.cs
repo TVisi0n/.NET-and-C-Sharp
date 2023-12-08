@@ -12,5 +12,9 @@ namespace ClassSubmission
         {
             result = x / 2;
         }
+        public void MethodDiv(int x)
+        {
+            Console.WriteLine(x / 2);
+        }
     }
 }

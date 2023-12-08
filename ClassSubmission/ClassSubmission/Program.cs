@@ -20,5 +20,6 @@ namespace ClassSubmission
             Console.WriteLine(result);
             Console.ReadLine();
         }
+
     }
 }

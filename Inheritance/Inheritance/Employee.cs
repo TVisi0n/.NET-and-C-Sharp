@@ -4,9 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ClassSubmission
+namespace Inheritance
 {
-    static class Class1
+    public class Employee : Person
     {
+        public int id { get; set; }
     }
 }
