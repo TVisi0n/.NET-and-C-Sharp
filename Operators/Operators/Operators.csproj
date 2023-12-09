@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{2423ADFD-684F-4EF6-8365-D2450E3892B4}</ProjectGuid>
+    <ProjectGuid>{E4FD43E8-12A4-4D96-9120-86C3BE54DC29}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>AbstractClasses</RootNamespace>
-    <AssemblyName>AbstractClasses</AssemblyName>
+    <RootNamespace>Operators</RootNamespace>
+    <AssemblyName>Operators</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -44,8 +44,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Employee.cs" />
-    <Compile Include="IQuittable.cs" />
-    <Compile Include="Person.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

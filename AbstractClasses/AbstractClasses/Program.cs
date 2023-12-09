@@ -16,6 +16,7 @@ namespace AbstractClasses
             employee.lastName = "Vasquez";
 
             employee.sayName();
+            employee.Quit();
             Console.ReadLine();
         }
     }
