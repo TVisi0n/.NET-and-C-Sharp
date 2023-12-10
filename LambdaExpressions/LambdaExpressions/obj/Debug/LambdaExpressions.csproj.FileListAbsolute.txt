@@ -1,0 +1,7 @@
+C:\Users\Tanner\OneDrive\Documents\GitHub\.NET-and-C-Sharp\LambdaExpressions\LambdaExpressions\bin\Debug\LambdaExpressions.exe.config
+C:\Users\Tanner\OneDrive\Documents\GitHub\.NET-and-C-Sharp\LambdaExpressions\LambdaExpressions\bin\Debug\LambdaExpressions.exe
+C:\Users\Tanner\OneDrive\Documents\GitHub\.NET-and-C-Sharp\LambdaExpressions\LambdaExpressions\bin\Debug\LambdaExpressions.pdb
+C:\Users\Tanner\OneDrive\Documents\GitHub\.NET-and-C-Sharp\LambdaExpressions\LambdaExpressions\obj\Debug\LambdaExpressions.csproj.AssemblyReference.cache
+C:\Users\Tanner\OneDrive\Documents\GitHub\.NET-and-C-Sharp\LambdaExpressions\LambdaExpressions\obj\Debug\LambdaExpressions.csproj.CoreCompileInputs.cache
+C:\Users\Tanner\OneDrive\Documents\GitHub\.NET-and-C-Sharp\LambdaExpressions\LambdaExpressions\obj\Debug\LambdaExpressions.exe
+C:\Users\Tanner\OneDrive\Documents\GitHub\.NET-and-C-Sharp\LambdaExpressions\LambdaExpressions\obj\Debug\LambdaExpressions.pdb
