@@ -1,0 +1,7 @@
+C:\Users\Tanner\OneDrive\Documents\GitHub\.NET-and-C-Sharp\FileTransfer\FileTransfer\bin\Debug\FileTransfer.exe.config
+C:\Users\Tanner\OneDrive\Documents\GitHub\.NET-and-C-Sharp\FileTransfer\FileTransfer\bin\Debug\FileTransfer.exe
+C:\Users\Tanner\OneDrive\Documents\GitHub\.NET-and-C-Sharp\FileTransfer\FileTransfer\bin\Debug\FileTransfer.pdb
+C:\Users\Tanner\OneDrive\Documents\GitHub\.NET-and-C-Sharp\FileTransfer\FileTransfer\obj\Debug\FileTransfer.csproj.AssemblyReference.cache
+C:\Users\Tanner\OneDrive\Documents\GitHub\.NET-and-C-Sharp\FileTransfer\FileTransfer\obj\Debug\FileTransfer.csproj.CoreCompileInputs.cache
+C:\Users\Tanner\OneDrive\Documents\GitHub\.NET-and-C-Sharp\FileTransfer\FileTransfer\obj\Debug\FileTransfer.exe
+C:\Users\Tanner\OneDrive\Documents\GitHub\.NET-and-C-Sharp\FileTransfer\FileTransfer\obj\Debug\FileTransfer.pdb

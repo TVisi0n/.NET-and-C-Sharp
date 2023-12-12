@@ -20,7 +20,7 @@ namespace Operators
             emp2.firstName = "Nayeli";
             emp2.lastName = "Bernal";
 
-            Console.WriteLine(emp1.Equals(emp2));
+            Console.WriteLine(emp1 == emp2);
             Console.ReadLine();
         }
     }
