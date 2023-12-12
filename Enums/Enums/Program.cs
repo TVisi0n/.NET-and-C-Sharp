@@ -15,17 +15,14 @@ namespace Enums
                 Console.WriteLine("Please enter the current day of the week.");
                 string userInput = Console.ReadLine();
 
-                DaysOfTheWeek day = DaysOfTheWeek.Saturday;
-
-
-                DaysOfTheWeek result;
-                if (Enum.TryParse(userInput, out result) && result == day)
+                
+                if (Enum.IsDefined(typeof(DaysOfTheWeek), userInput))
                 {
-                    Console.WriteLine("Yes that is the correct day");
+                    Console.WriteLine("Yes that is a day of the week!");
                 }
                 else
                 {
-                    Console.WriteLine("No that is not the correct day");
+                    Console.WriteLine("Please enter a valid day of the week.");
                 }
             }
             catch
