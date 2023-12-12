@@ -12,7 +12,7 @@ namespace AbstractClasses
         {
             Console.WriteLine("Name: " + firstName + " " + lastName);
         }
-        public void Quit()
+        public void Quit(string firstName, string lastName)
         {
             Console.WriteLine("I " + firstName + " " + lastName + ", Quit!");
         }
