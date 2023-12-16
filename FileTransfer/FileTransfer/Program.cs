@@ -15,16 +15,24 @@ namespace FileTransfer
             Console.WriteLine("To move Config or XML files from downloads to trash please enter: \n 1 - Config \n 2 - XML");
             int userInput = Convert.ToInt32(Console.ReadLine());
 
+            string dest = "C:\$Recycle.Bin";
+            string[] files = Directory.GetFiles(@"C:\Users\Tanner\Downloads", "*.mp4", SearchOption.AllDirectories);
+            foreach(var item in files)
+            {
+                Console.WriteLine(item.ToString());
+            }
 
-            //string root = @"C:\Users\Tanner\Downloads";
+
+
+            //string root = @"c:\users\tanner\downloads";
             //var files = from file in
-            //Directory.EnumerateFiles(root)
+            //directory.enumeratefiles(root)
             //            select file;
-            //Console.WriteLine("Files: {0}", files.Count<string>().ToString());
-            //Console.WriteLine("List of Files");
+            //console.writeline("files: {0}", files.count<string>().tostring());
+            //console.writeline("list of files");
             //foreach (var file in files)
             //{
-            //    Console.WriteLine("{0}", file);
+            //    console.writeline("{0}", file);
             //}
 
 
