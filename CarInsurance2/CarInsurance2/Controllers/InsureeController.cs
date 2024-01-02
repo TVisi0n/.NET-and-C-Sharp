@@ -51,6 +51,7 @@ namespace CarInsurance2.Controllers
             if (ModelState.IsValid)
             {
                 db.Insurees.Add(insuree);
+                Quote(insuree);
                 db.SaveChanges();
                 return RedirectToAction("Index");
             }
@@ -130,6 +131,7 @@ namespace CarInsurance2.Controllers
             if (ModelState.IsValid)
             {
                 db.Entry(insuree).State = EntityState.Modified;
+                Quote(insuree);
                 db.SaveChanges();
                 return RedirectToAction("Index");
             }
