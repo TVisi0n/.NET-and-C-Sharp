@@ -51,7 +51,7 @@ namespace CarInsurance2.Controllers
             if (ModelState.IsValid)
             {
                 db.Insurees.Add(insuree);
-                Quote(insuree);
+                insuree.Quote = Quote(insuree);
                 db.SaveChanges();
                 return RedirectToAction("Index");
             }
@@ -61,49 +61,49 @@ namespace CarInsurance2.Controllers
 
         public decimal Quote(Insuree insuree)
         {
-            insuree.Quote = 50.0m;
+            decimal quote = 50.0m;
 
-            if (DateTime.Now.Year - insuree.DateOfBirth.Year < 18)
+            if (DateTime.Now.Year - insuree.DateOfBirth.Year <= 18)
             {
-                insuree.Quote += 100;
+                quote += 100;
             }
-            if (DateTime.Now.Year - insuree.DateOfBirth.Year > 18 && DateTime.Now.Year - insuree.DateOfBirth.Year < 25)
+            if (DateTime.Now.Year - insuree.DateOfBirth.Year > 18 && DateTime.Now.Year - insuree.DateOfBirth.Year <= 25)
             {
-                insuree.Quote += 25;
+                quote += 50;
             }
-            if (DateTime.Now.Year - insuree.DateOfBirth.Year > 100)
+            if (DateTime.Now.Year - insuree.DateOfBirth.Year > 25)
             {
-                insuree.Quote += 25;
+                quote += 25;
             }
             if (Convert.ToInt32(insuree.CarYear) < 2000)
             {
-                insuree.Quote += 25;
+                quote += 25;
             }
             if (Convert.ToInt32(insuree.CarYear) > 2015)
             {
-                insuree.Quote += 25;
+                quote += 25;
             }
             if (insuree.CarMake == "Porsche")
             {
-                insuree.Quote += 25;
+                quote += 25;
             }
             if (insuree.CarMake == "Porsche" && insuree.CarModel == "911 Carrera")
             {
-                insuree.Quote += 25;
+                quote += 25;
             }
             for (int i = 0; i < insuree.SpeedingTickets; i++)
             {
-                insuree.Quote += 10;
+                quote += 10;
             }
             if (insuree.DUI == true)
             {
-                insuree.Quote *= 1.25m;
+                quote *= 1.25m;
             }
             if (insuree.CoverageType == true)
             {
-                insuree.Quote *= 1.50m;
+                quote *= 1.50m;
             }
-            return insuree.Quote;
+            return quote;
         }
 
         // GET: Insuree/Edit/5
@@ -131,7 +131,7 @@ namespace CarInsurance2.Controllers
             if (ModelState.IsValid)
             {
                 db.Entry(insuree).State = EntityState.Modified;
-                Quote(insuree);
+                insuree.Quote = Quote(insuree);
                 db.SaveChanges();
                 return RedirectToAction("Index");
             }
