@@ -1,0 +1,12 @@
+C:\Users\Tanner\OneDrive\Desktop\Basic_C#_Programs\StudentDB\StudentDB\bin\Debug\StudentDB.exe.config
+C:\Users\Tanner\OneDrive\Desktop\Basic_C#_Programs\StudentDB\StudentDB\bin\Debug\StudentDB.exe
+C:\Users\Tanner\OneDrive\Desktop\Basic_C#_Programs\StudentDB\StudentDB\bin\Debug\StudentDB.pdb
+C:\Users\Tanner\OneDrive\Desktop\Basic_C#_Programs\StudentDB\StudentDB\bin\Debug\EntityFramework.dll
+C:\Users\Tanner\OneDrive\Desktop\Basic_C#_Programs\StudentDB\StudentDB\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Tanner\OneDrive\Desktop\Basic_C#_Programs\StudentDB\StudentDB\bin\Debug\EntityFramework.xml
+C:\Users\Tanner\OneDrive\Desktop\Basic_C#_Programs\StudentDB\StudentDB\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Tanner\OneDrive\Desktop\Basic_C#_Programs\StudentDB\StudentDB\obj\Debug\StudentDB.csproj.AssemblyReference.cache
+C:\Users\Tanner\OneDrive\Desktop\Basic_C#_Programs\StudentDB\StudentDB\obj\Debug\StudentDB.csproj.CoreCompileInputs.cache
+C:\Users\Tanner\OneDrive\Desktop\Basic_C#_Programs\StudentDB\StudentDB\obj\Debug\StudentDB.csproj.CopyComplete
+C:\Users\Tanner\OneDrive\Desktop\Basic_C#_Programs\StudentDB\StudentDB\obj\Debug\StudentDB.exe
+C:\Users\Tanner\OneDrive\Desktop\Basic_C#_Programs\StudentDB\StudentDB\obj\Debug\StudentDB.pdb
